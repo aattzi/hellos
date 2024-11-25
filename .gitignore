@@ -2,3 +2,8 @@ import random
 
 weight = [200, 250, 263]
 locations = random.sample(range(1, 11), 3)
+
+print("hello, friends! let's try to find your boxes:)") 
+
+while True:
+guesses = [0, 0, 0]
